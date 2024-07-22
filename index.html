@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="main.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="boxBar">
+      <div class="bar"></div>
+    </div>
+
+    <div id="app">
+      <h1 id="mainTitle">D.O.M Events</h1>
+      <a href="#" class="superLien">Ajouter Classe</a>
+      <a href="#"  class="superLien">Supprimer Classe</a>
+      <a href="#"  class="superLien">Toggle Classe</a>
+    </div>
+
+    <div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col-6">
+              <div class="card h-100">
+                  <img src="https://picsum.photos/1920/1080">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="https://picsum.photos/1920/1080">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="https://picsum.photos/1920/1080">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <img src="https://picsum.photos/1920/1080">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <h3 id="writeHere">Votre commentaire</h3>
+  <textarea placeholder="Écrire ici"></textarea>
+
+  <div id="here">
+    <button>Effacer</button>
+    <button>Envoyer</button>
+    <h3>Aperçu :</h3>
+    <p class="here"></p>
+  </div>
+
+  <style>
+    .boxBar {
+    z-index: 1;
+    width: 100%;
+    border: 2px solid rgb(124, 84, 52);
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+
+    .bar {
+        height: 3px;
+        background: rgb(163, 133, 97);
+        width: 0%;
+    }
+
+    </style>
+    <script src="main.js"></script>
+  </body>
+</html>
